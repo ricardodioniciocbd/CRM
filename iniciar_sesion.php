@@ -40,8 +40,9 @@ if (isset($_POST['usuario']) && isset($_POST['password'])) {
             header("Location: home.php");
             exit();
         } else {
-            // Incluye el archivo index.php en lugar de index.html
-            include("index.php");   
+            // Redirige con un parámetro de error
+            header("Location: index.php?error=1");
+            exit();
         }
 
         mysqli_free_result($resultado);
