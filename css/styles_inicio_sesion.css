@@ -1,0 +1,82 @@
+body{
+    background-color: slateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+form{
+    width: 600px;
+    border: 2px solid white;
+    padding: 6rem;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+    color: black;
+}
+
+
+h1{
+    display: block;
+    border: 2px solid; 
+    color: black;
+    border: none;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+label{
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 300;
+}
+
+input{
+    display: block;
+    border: 2px solid black;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px; 
+}
+
+button{
+    float: right;
+    background-color: black;
+    padding: 0.5rem;
+    color:white;
+    border: none;
+    width: 40%;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+
+button:hover{
+    background-color: blueviolet;
+    color: black;
+
+}
+
+
+.error{
+    background-color: rgb(136, 56, 56);
+    color: black;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
